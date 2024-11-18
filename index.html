@@ -110,9 +110,16 @@
       <!-- INTRO - MODULE 1 - end -->
 
       <!-- VIDEO - MODULE 2 - start -->
-      <section id="video" class="container-fluid bg-cover">
+      <section id="video" class="container-fluid bg-cover" style="position: relative;
+      padding-bottom: 56.25%; /* 16:9 */
+      height: 0;">
         <div class="background bg-cover"><i></i><div class="video_not_suport">360° YouTube video playback is not supported on this browser</div></div>
-        <div id="player"></div>
+        <!-- <div id="player"></div> -->
+        <iframe style="position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;" src="https://www.youtube-nocookie.com/embed/8ALEo-_7cn4?si=PyDTyYMelrilVI5s&enablejsapi=1&rel=0&modestbranding=1&autoplay=1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
       </section>
       <!-- VIDEO - MODULE 2 - end -->
 
